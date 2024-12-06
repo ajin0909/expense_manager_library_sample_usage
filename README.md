@@ -2,21 +2,6 @@
 
 이 리포지토리는 expense_manager_library를 설치하고 사용하는 방법을 보여줍니다. expense_manager_library는 개인의 소비 데이터를 분석하고 보고서를 생성하는 파이썬 라이브러리입니다. 
 
-##리포지토리 구조
-expense_manager_library_sample_usage/
-├── **expense_manager_library/**    # 라이브러리 소스 코드
-│   ├── __init__.py
-│   ├── data_cleaner.py
-│   ├── report_generator.py
-│   └── visualizer.py
-├── **examples/**                   # 사용 예제
-│   ├── example_usage.py        # 라이브러리 사용 예제
-│   └── sample_data.csv         # 샘플 데이터
-├── **results/**                    # 실행 결과 저장 폴더
-│   └── (분류된 데이터 및 PDF 파일)
-├── **README.md**                   # 설명서
-└── **requirements.txt**            # 필요한 라이브러리 목록
-
 ##설치 및 사용법
 ### 라이브러리 설치
 ```bash
