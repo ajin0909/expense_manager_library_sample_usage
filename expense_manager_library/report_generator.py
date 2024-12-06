@@ -1,5 +1,5 @@
 import os
-from .visualizer import draw_pie_chart, draw_line_chart, draw_bar_chart
+from visualizer import draw_pie_chart, draw_line_chart, draw_bar_chart
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 from matplotlib.backends.backend_pdf import PdfPages
