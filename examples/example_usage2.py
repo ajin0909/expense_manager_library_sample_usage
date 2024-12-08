@@ -1,3 +1,11 @@
+import os
+import sys
+
+# 프로젝트 루트 디렉토리를 sys.path에 추가
+current_dir = os.path.dirname(os.path.abspath(__file__))
+root_dir = os.path.dirname(current_dir)
+sys.path.append(root_dir)
+
 from expense_manager_library.data_cleaner import categorize_transactions
 from expense_manager_library.visualizer import load_data
 from expense_manager_library.report_generator import generate_report, save_report_to_pdf
@@ -26,5 +34,4 @@ save_report_to_pdf(
     report_text, 
     selected_graphs=["pie", "line"], 
     show_report=True,
-    font_color = "brown",
     pdf_path = "results/report2.pdf")

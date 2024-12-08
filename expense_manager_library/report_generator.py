@@ -1,5 +1,10 @@
 import os
-from visualizer import draw_pie_chart, draw_line_chart, draw_bar_chart
+import sys
+
+# 상위 디렉토리를 sys.path에 추가
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from expense_manager_library.visualizer import draw_pie_chart, draw_line_chart, draw_bar_chart
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 from matplotlib.backends.backend_pdf import PdfPages

@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib import rc
 import platform
+import os
 
 # 한글 폰트 설정
 if platform.system() == "Windows":
